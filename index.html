@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web TaskBot | DjokiCoding</title>
+  </head>
+  <body>
+    <div class="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/Logo1-removebg-preview.png" alt="logo" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#contact">CONTACT US</a></li>
+        <li><a href="./views/order.php">ORDER</a></li>
+      </ul>
+    </nav>
+
+    <header id="home">
+      <!-- Video background -->
+      <video autoplay muted loop playsinline class="header__video">
+        <source src="assets/Video.mp4" type="video/mp4" />
+        <!-- fallback jika video gagal load -->
+        <img src="assets/awal.jpg" alt="Background" />
+      </video>
+
+      <!-- Teks di atas video -->
+      <div class="section__container header__container">
+        <h1 class="section__header">Solusi Tepat untuk Setiap Tugasmu</h1>
+      </div>
+    </header>
+
+    <section class="section__container gallery__container" id="gallery">
+      <p class="section__subheader">TASKBOT</p>
+      <h2 class="section__header">OUR GALLERY</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="assets/Contoh1.jpg" alt="gallery" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Contoh2.jpg" alt="gallery" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Contoh3.jpg" alt="gallery" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Contoh6.jpg" alt="gallery" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Contoh5.jpg" alt="gallery" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="about">
+      <p class="section__subheader">KNOW US BETTER</p>
+      <h2 class="section__header">
+        WHERE IDEAS TURN INTO CODE, AND CODE TURNS INTO IMPACT.
+      </h2>
+      <div class="service__content">
+        <div class="service__row">
+          <div class="service__img">
+            <img src="assets/Contoh8.jpg" alt="service" />
+          </div>
+          <div class="service__details">
+            <h4>Costum Landing page</h4>
+            <p>
+              Custom Landing Page Enjoy our delightful service by creating a
+              responsive and modern landing page.
+            </p>
+          </div>
+        </div>
+        <div class="service__row">
+          <div class="service__img">
+            <img src="assets/Contoh6.jpg" alt="service" />
+          </div>
+          <div class="service__details">
+            <h4>Design Database</h4>
+            <p>
+              Design a database with a sequence that is easy for users to
+              understand.
+            </p>
+          </div>
+        </div>
+        <div class="service__row">
+          <div class="service__img">
+            <img src="assets/Contoh5.jpg" alt="service" />
+          </div>
+          <div class="service__details">
+            <h4>Design Figma</h4>
+            <p>
+              From luxury showcases to networking experiences, we create
+              unforgettable moments centered around cars.
+            </p>
+          </div>
+        </div>
+        <div class="service__row">
+          <div class="service__img">
+            <img src="assets/Contoh9.jpg" alt="service" />
+          </div>
+          <div class="service__details">
+            <h4>Hosting Web</h4>
+            <p>
+              This invisible layer defends against scratches, stone chips, and
+              environmental damage, preserving your car for years.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="service__btn">
+        <button class="btn">VIEW ALL SERVICES</button>
+      </div>
+    </section>
+
+    <section class="section__container instagram__container">
+      <p class="section__subheader">Specalist In</p>
+      <h2 class="section__header">TASKBOT</h2>
+      <div class="instagram__wrapper">
+        <div class="instagram__images">
+          <img src="assets/orang1.jpg" alt="instagram" />
+          <img src="assets/orang2.jpg" alt="instagram" />
+          <img src="assets/orang3.jpg" alt="instagram" />
+          <img src="assets/orang4.jpg" alt="instagram" />
+          <img src="assets/Contoh12.jpg" alt="instagram" />
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="section__container banner__container">
+        <p class="section__subheader">WELCOME TO WE WEBSITE</p>
+        <h2 class="section__header">TASKBOT | DJOKICODING</h2>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <div class="footer__col">
+          <a href="#" class="footer__logo">
+            <!-- <img src="assets/logo.png" alt="logo" /> -->
+          </a>
+          <p class="section__description">
+            We offer a variety of services with the best deals and fastest
+            service.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/taskbot.si24?igsh=MW9uNGN6MDJwcWEzZw=="><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/6287856650388?text=Halo%20saya%20ingin%20bertanya%20tentang%20paket%20joki%20diTaskbot"
+                target="_blank"
+                ><i class="ri-whatsapp-fill"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Klik Link</h4>
+          <ul class="footer__links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>PELAYANAN</h4>
+          <ul class="footer__links">
+            <li><a href="#">Pembuatan Website Ringan</a></li>
+            <li><a href="#">Perancangan Database</a></li>
+            <li><a href="#">Pembuatan Design Figma</a></li>
+            <li><a href="#">Hosting Web</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>SIGNUP FOR BOOKING</h4>
+          <form action="/">
+            <input type="text" placeholder="ENTER EMAIL" />
+            <button class="btn">
+              <i class="ri-send-plane-2-fill"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Web TaskBot. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
